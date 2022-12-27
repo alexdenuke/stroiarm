@@ -1,0 +1,35 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* position: fixed; */
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+.header__wrap {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    width: 50px;
+    margin-right: auto;
+}
+.header__tel {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.header__social {
+    width: 40px;
+    margin-left: 10px;
+}
+.cost-form {
+}
+.container {
+}
+.cost-form__title {
+    font-size: 40px;
+}
+.cost-form__title-item {
+}
