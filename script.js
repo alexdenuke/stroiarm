@@ -6,20 +6,27 @@ burger.addEventListener('click', () => {
   document.body.classList.toggle("lock");
 })
 
-const sliders = document.querySelector('.swiper');
+const slider = document.querySelector('.swiper');
 
-new Swiper(sliders, {
+new Swiper(slider, {
   direction: 'horizontal',
   loop: true,
-
-
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
-  slidesPerView: 3,
-  spaceBetween: 50,
+  slidesPerView: 1,
+  // spaceBetween: 50,
+  // centerInsufficientSlides: false,
+  grabCursor: true,
+  breakpoints: {
+    800: {
+      slidesPerView: 3,
+    },
+    450: {
+      slidesPerView: 2,
+    }
+  }
 });
 
 
