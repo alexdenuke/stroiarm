@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>builder</title>
+    <title>stroiarm</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap"
@@ -13,20 +13,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header__wrap">
-                <!-- <img src="/img/logo.svg" alt="логотип" class="header__logo"> -->
-                <p class="header__logo">СтройАрм</p>
+                <div class="header__logo-wrap">
+                    <img src="/img/logo.png" alt="логотип" class="header__logo-img">
+                    <p class="header__logo">СтройАрм</p>
+                </div>
                 <p class="header__tel">8 999 999 99 99</p>
-                <img src="/img/telegram.svg" alt="" class="header__social">
-                <img src="/img/vk.svg" alt="" class="header__social">
-                <img src="/img/whats-app.svg" alt="" class="header__social">
+                <a target="_blank" href="https://telegram.org/" class="header__telegram-icon">
+                    <img src="/img/telegram.svg" alt="" class="header__social">
+                </a>
+                <a target="_blank" href="https://vk.com/" class="header__vk-icon">
+                    <img src="/img/vk.svg" alt="" class="header__social">
+                </a>
+                <a target="_blank" href="https://www.whatsapp.com/" class="header__whatsup-icon">
+                    <img src="/img/whats-app.svg" alt="" class="header__social">
+                </a>
                 <img src="/img/burger.svg" alt="" class="header__burger">
             </div>
             <div class="header__burger-menu">
@@ -42,17 +48,18 @@
             </div>
     </header>
     <div class="header-duplicate"></div>
-    <form action="#" class="cost-form block-fz">
+    <form method="POST" action="action.php" class="cost-form block-fz">
         <div class="container">
             <h1 class="cost-form__title">
                 Капитальный ремонт квартир с работой и материалами по фиксированной цене и срокам
             </h1>
-            <div class="cost-form__sub-title">
-                Фиксированная смета по договору с гарантией 3 года
-            </div>
+            <p class="cost-form__sub-title">
+                Качественный ремонт вашей квартиры в Москве и Подмосковью точно в срок и с гарантией 1 год! <br>
+                БЕСПЛАТНЫЙ выезд инженера и смета на следующий день
+            </p>
             <fieldset class="cost-form__input">
-                <input placeholder="Введите имя" type="text" class="cost-form__name">
-                <input placeholder="Введите телефон" type="number" class="cost-form__tel">
+                <input name="name" placeholder="Введите имя" type="text" class="cost-form__name">
+                <input name="tel" placeholder="Введите телефон" type="number" class="cost-form__tel">
                 <button type="submit" class="cost-form__btn">Узнать стоимость</button>
             </fieldset>
             <p class="cost-form__data-processing">Нажимая на кнопку «Узнать стоимость», я даю согласие на обработку
@@ -120,7 +127,8 @@
                     - Укладка электрического кабеля с выводом точек освещения, розеток, выключателей <br>
                     - Монтаж труб ХВС, ГВС и канализации <br>
                     - Устройство стяжки пола <br>
-                    - Штукатурка поверхностей потолка, стен
+                    - Штукатурка поверхностей потолка, стен <br>
+                    - И другие виды работ
                 </p>
             </div>
             <div class="service-rate__item">
@@ -140,6 +148,7 @@
                     - Окраска стен и потолков, оклейка рулонными материалами <br>
                     - Монтаж светильников, люстр, выключателей, розеток <br>
                     - Монтаж напольного покрытия, укладка плитки на полу или стенах <br>
+                    - И другие виды работ
                 </p>
             </div>
             <div class="service-rate__item">
@@ -155,7 +164,8 @@
                     - Окраска стен и потолков, оклейка рулонными материалами <br>
                     - Монтаж светильников, люстр, выключателей, розеток <br>
                     - Монтаж сантехники – унитаза, раковины, биде, душевой кабины, мойки <br>
-                    - Устройство стяжки пола
+                    - Устройство стяжки пола <br>
+                    - И другие виды работ
                 </p>
             </div>
         </div>
@@ -166,29 +176,29 @@
                 Мы сделали комфортные условия оплаты
             </h2>
             <h3 class="payment__sub-title">
-                Начинаем работать без Предоплат!
+                Быстрый старт гарантируем!
             </h3>
             <div class="payment__block">
                 <div class="payment__block-item">
-                    <img src="/img/work.svg" alt="" class="payment__block-item-icon">
+                    <img src="/img/plan.svg" alt="" class="payment__block-item-icon">
                     <p class="payment__block-item-title">30% оплаты</p>
-                    <p class="payment__block-item-sub-title">После выполнения первого этапа работ</p>
+                    <p class="payment__block-item-sub-title">Перед началом первого этапа работ</p>
                 </div>
                 <img src="/img/arrow.svg" alt="" class="payment__block-arrow">
                 <div class="payment__block-item">
-                    <img src="/img/work.svg" alt="" class="payment__block-item-icon">
+                    <img src="/img/process.svg" alt="" class="payment__block-item-icon">
                     <p class="payment__block-item-title">40% оплаты</p>
-                    <p class="payment__block-item-sub-title">При выполнении второго этапа работ</p>
+                    <p class="payment__block-item-sub-title">Перед вторым этапом работ</p>
                 </div>
                 <img src="/img/arrow.svg" alt="" class="payment__block-arrow">
                 <div class="payment__block-item">
-                    <img src="/img/work.svg" alt="" class="payment__block-item-icon">
+                    <img src="/img/done.svg" alt="" class="payment__block-item-icon">
                     <p class="payment__block-item-title">30% оплаты</p>
                     <p class="payment__block-item-sub-title">После сдачи квартиры</p>
                 </div>
             </div>
             <div class="payment__footer">
-                <img src="/img/work.svg" alt="" class="payment__footer-img">
+                <img src="/img/cleaning.svg" alt="" class="payment__footer-img">
                 <p class="payment__footer-text">
                     Бонус всем клиентам:
                     <br>
@@ -200,31 +210,29 @@
     <section class="warranty block-fz">
         <div class="container">
             <h2 class="warranty__title">
-                Доверяй, но проверяй
+                Проверка хода выполнения ремонта вашей квартиры, офиса или магазина.
             </h2>
             <h3 class="warranty__sub-title">
                 <b> В любой момент вы можете прийти и проверить ход выполнения работ.</b>
                 <br>
-                Будет создан чат, где закреплённые за вами менеджер и прораб будут отвечать на все ваши
-                <br>
-                вопросы и держать вас в курсе всего процесса в режиме онлайн.
+                Ваш менеджер ответит на все ваши вопросы. Фото видео отчеты по ходу выполнения ремонтных работ
             </h3>
             <div class="warranty__desc">
                 <div class="warranty__desc-wrap">
-                    <img src="/img/work.svg" alt="" class="warranty__img">
+                    <img src="/img/contract.svg" alt="" class="warranty__img">
                     <p class="warranty__text">Мы предоставляем гарантии по договору</p>
                 </div>
                 <div class="warranty__desc-wrap">
-                    <img src="/img/work.svg" alt="" class="warranty__img">
-                    <p class="warranty__text">Мы предоставляем гарантии по договору</p>
+                    <img src="/img/cart.svg" alt="" class="warranty__img">
+                    <p class="warranty__text">Закупим привезем и поднимем все необходимые материалы на ваш объект самостоятельно</p>
                 </div>
                 <div class="warranty__desc-wrap">
-                    <img src="/img/work.svg" alt="" class="warranty__img">
-                    <p class="warranty__text">Мы предоставляем гарантии по договору</p>
+                    <img src="/img/chat.svg" alt="" class="warranty__img">
+                    <p class="warranty__text">Откроем персональный чат с вашим личным менеджером</p>
                 </div>
                 <div class="warranty__desc-wrap">
-                    <img src="/img/work.svg" alt="" class="warranty__img">
-                    <p class="warranty__text">Мы предоставляем гарантии по договору</p>
+                    <img src="/img/reliability.svg" alt="" class="warranty__img">
+                    <p class="warranty__text">Обещаем надёжность выполненых работ под ключ</p>
                 </div>
             </div>
         </div>
@@ -232,28 +240,22 @@
     <section class="excursion block-fz">
         <div class="container">
             <h2 class="excursion__title">
-                Качество, надёжность и прозрачность предоставляемых услуг – наши главные приоритеты
+                Качество предоставляемых услуг, надежность и честность вот наш девиз в работе
             </h2>
-            <p class="excursion__sub-title-vk">
-                Посмотреть фотографии готовых ремонтов можно в нашей Группе Вконтакте,
-            </p>
             <p class="excursion__sub-title">
-                Как насчет того, чтобы лично посмотреть процесс ремонта на текущих объектах?
+                Еще больше фотографий наших работ в группе во <a href="https://vk.com/" class="excursion__sub-title-link">Вконтакте</a>
             </p>
-            <button type="submit" class="excursion__button">Записаться на экскурсию по объектам</button>
+            <button type="submit" class="excursion__button">Записаться на просмотр текущих объектов</button>
         </div>
     </section>
-    <!-- <section class="map">
-        <img src="/img/map.jpg" alt="" class="map__img">
-    </section> -->
+    <section class="map block-fz">
+            <img src="/img/map2000.jpg" alt="" class="map__img">
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__nav">
                 <p class="footer__email">
                     StroiArmru@yandex.ru
-                </p>
-                <p class="footer__tel">
-                    8 999 999 99 99
                 </p>
                 <a href="#" class="footer__conf">
                     Политика конфидинциальности

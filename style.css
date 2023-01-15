@@ -2,11 +2,13 @@
     --fz-sub-title: 0.8em;
     --line-height-title: 1.2em;
     --color-style: #ffcc00;
+    --bgc: rgb(245, 245, 245);
 }
 
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
 .block-fz {
     font-size: 30px;
     /* line-height: 1.5em; */
@@ -17,7 +19,7 @@ body {
     position: fixed;
     z-index: 10000;
     border-bottom: 2px solid var(--color-style);
-    height: 60px;
+    /* height: 60px; */
     /* margin-bottom: 60px; */
 }
 .container {
@@ -30,14 +32,19 @@ body {
     display: flex;
     align-items: center;
 }
-
+.header__logo-wrap {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
 .header__logo {
     font-size: 30px;
-    margin-right: auto;
 }
-
+.header__logo-img {
+    height: 30px;
+}
 .header__tel {
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 20px;
 }
 
@@ -95,6 +102,7 @@ body {
     font-weight: 200;
     font-size: var(--fz-sub-title);
     margin-bottom: 1em;
+    line-height: 1.5em;
 }
 
 .cost-form__input {
@@ -181,23 +189,23 @@ body {
 }
 
 .gallery {
+    background-color: var(--bgc);
 }
 .swiper {
     margin-top: 7%;
     margin-bottom: 7%;
     
 }
-.swiper-wrapper {   
+.swiper-wrapper {  
 }
-.swiper-slide {
-    border-right: 10px solid rgb(255, 255, 255);
-    border-left: 10px solid rgb(255, 255, 255);
+.swiper-slide { 
+    border-right: 10px solid var(--bgc);
+    border-left: 10px solid var(--bgc);
     position: relative;
     padding-top: 30%;
     /* padding-top: 57%; */
     /* padding-top: 115%; */
     /* height: 700px; */
-
     
 }
 .swiper-slide-img {
@@ -213,11 +221,11 @@ body {
 }
 .swiper-button-prev {
     color: var(--color-style);
-    left: 0;
+    left: 10;
 }
 .swiper-button-next {
     color: var(--color-style);
-    right: 0;
+    right: 10;
 }
 .payment {
     background-color: rgb(245, 245, 245);
@@ -253,7 +261,7 @@ body {
 }
 
 .payment__block-item-icon {
-    width: 100px;
+    height: 70px;
     margin-bottom: 10px;
 }
 
@@ -283,7 +291,8 @@ body {
 }
 
 .payment__footer-img {
-    margin-right: 7%;
+    margin-right: 5%;
+    height: 70px;
 }
 
 .payment__footer-text {
@@ -317,9 +326,11 @@ body {
 
 .warranty__img {
     margin-right: 15px;
+    height: 70px;
 }
 .warranty__text {
     font-size: 0.7em;
+    text-align: center;
 }
 
 .warranty__desc-wrap {
@@ -330,6 +341,7 @@ body {
 
 .excursion {
     margin-bottom: 100px;
+    background-color: var(--bgc);
 }
 
 .excursion__title {
@@ -338,15 +350,11 @@ body {
     margin-bottom: 0.6em;
 }
 
-.excursion__sub-title-vk {
-    font-size: var(--fz-sub-title);
-    font-weight: 200;
-    margin-bottom: 1em;
-}
 
 .excursion__sub-title {
+    font-weight: 200;
     font-size: var(--fz-sub-title);
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .excursion__button {
@@ -359,7 +367,9 @@ body {
     margin: 0px auto;
     margin-bottom: 7%;
 }
-
+.map {
+    margin-bottom: 7%
+}
 .map__img {
     width: 100%;
     height: 500px;
@@ -367,12 +377,18 @@ body {
 }
 
 .footer {
+    font-size: 16px;
     height: 100px;
     background-color: rgb(204, 204, 204);
 }
-.footer__email {
+.footer__nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 16px;
 }
-.footer__tel {
+.footer__email {
+    margin-right: auto;
 }
 
 @media(max-width: 1000px) {
@@ -453,6 +469,12 @@ body {
     .container {
         padding: 10px 10px;
     }
+    .header-duplicate {
+        height: 52px;
+    }
+    .header__burger-menu {
+        top: 52px;
+    }
     .block-fz {
         font-size: 20px;
     }
@@ -476,8 +498,7 @@ body {
     .header__wrap {
         justify-content: space-between;
     }
-
-    .header__logo {
+    .header__logo-wrap {
         margin: 0px;
     }
 
@@ -506,9 +527,40 @@ body {
         display: block;
     }
 }
+@media(max-width: 500px) {
+    .header-duplicate {
+        height: 47px;
+    }
+    .header__burger-menu {
+        top: 47px;
+    }
+    .header__logo-wrap {
+    }
+    .header__logo {
+        font-size: 25px;
+    }
+    .header__logo-img {
+        height: 25px;
+    }
+    .header__tel {
+        font-size: 20px;
+    }
+}
 
 @media(max-width: 450px) {
     .swiper-slide {
         padding-top: 115%;
+    }
+
+    .header__logo-wrap {
+    }
+    .header__logo {
+        font-size: 20px;
+    }
+    .header__logo-img {
+        display: none;
+    }
+    .header__tel {
+        font-size: 16px;
     }
     }

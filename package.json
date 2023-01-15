@@ -1,0 +1,24 @@
+{
+  "name": "stroiarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdenuke/landig-building.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexdenuke/landig-building/issues"
+  },
+  "homepage": "https://github.com/alexdenuke/landig-building#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2"
+  }
+}
