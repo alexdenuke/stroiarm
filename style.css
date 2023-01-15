@@ -9,6 +9,38 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.duplicate-policy {
+    margin-bottom: 7%;
+}
+.privacypolicy__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .privacypolicy__info-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0px;
+  }
+  .privacypolicy__info-subtitle {
+    margin: 20px 0px;
+    font-size: 16px;
+  }
+  .privacypolicy__info {
+    margin-bottom: 100px;
+  }
+  .privacypolicy__info-point {
+    font-size: 16px;
+  }
 .block-fz {
     font-size: 30px;
     /* line-height: 1.5em; */
@@ -39,6 +71,7 @@ body {
 }
 .header__logo {
     font-size: 30px;
+    color: #343434;
 }
 .header__logo-img {
     height: 30px;
@@ -46,6 +79,7 @@ body {
 .header__tel {
     font-size: 25px;
     margin-right: 20px;
+    color: #343434;
 }
 
 .header__social {
@@ -73,6 +107,8 @@ body {
 }
 
 .header__burger-menu-item {
+    display: flex;
+    align-items: center;
     font-size: 30px;
     margin-bottom: 40px;
 }
@@ -377,18 +413,25 @@ body {
 }
 
 .footer {
+    flex: 0 0 auto;
     font-size: 16px;
-    height: 100px;
-    background-color: rgb(204, 204, 204);
+    padding: 40px 0px;
+    /* height: 140px; */
+    background-color: rgb(217, 217, 217);
 }
 .footer__nav {
     display: flex;
     align-items: center;
-    height: 100px;
+    /* height: 140px; */
     font-size: 16px;
 }
 .footer__email {
     margin-right: auto;
+    color: #343434;
+}
+
+.footer__conf {
+    color: #343434;
 }
 
 @media(max-width: 1000px) {
@@ -475,8 +518,18 @@ body {
     .header__burger-menu {
         top: 52px;
     }
+    .header__burger-menu-item {
+        color: #343434;
+        /* margin: 0px 5px; */
+    }
+
+    .header__burger-menu-icon {
+    }
     .block-fz {
         font-size: 20px;
+    }
+    .header__burger-menu-link {
+        margin: 0px 10px;
     }
     .header__burger-menu.active {
         visibility: visible;
