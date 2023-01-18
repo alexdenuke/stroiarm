@@ -10,12 +10,119 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="swiper-bundle.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="popup-swiper">
+        <div class="container-popup">
+            <img src="/img/krest.svg" alt="" class="krest">
+            <div class="swiper swiper-pop">
+                <div class="swiper-wrapper swiper-wrapper-pop">
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s1.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s2.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s3.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s4.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s5.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s6.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s7.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s8.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s9.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s10.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s11.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s12.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s13.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s14.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s15.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s16.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s17.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s18.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s19.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s20.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s21.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s22.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s23.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s24.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s25.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s26.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s27.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s28.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s29.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-pop">
+                        <img src="/img/slider/s30.jpg" alt="" class="swiper-slide-pop-img">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev swiper-button-prev2"></div>
+                <div class="swiper-button-next swiper-button-next2"></div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="bububub">бубубуб</div> -->
     <div class="wrapper">
         <div class="content">
             <header class="header">
@@ -64,7 +171,7 @@
             <form method="POST" action="action.php" class="cost-form block-fz">
                 <div class="container">
                     <h1 class="cost-form__title">
-                        Качественный ремонт вашей квартиры в Москве и Подмосковью точно в срок и с гарантией 1 год! 
+                        Качественный ремонт вашей квартиры в Москве и Подмосковью точно в срок и с гарантией 1 год!
                     </h1>
                     <p class="cost-form__sub-title">
                         БЕСПЛАТНЫЙ выезд инженера и смета на следующий день
@@ -74,105 +181,108 @@
                         <input name="tel" placeholder="Введите телефон" type="number" class="cost-form__tel">
                         <button type="submit" class="cost-form__btn">Узнать стоимость</button>
                     </fieldset>
-                    <p class="cost-form__data-processing">Нажимая на кнопку «Узнать стоимость», я даю согласие на обработку
+                    <p class="cost-form__data-processing">Нажимая на кнопку «Узнать стоимость», я даю согласие на
+                        обработку
                         персональных данных</p>
                 </div>
             </form>
             <section class="gallery">
                 <div class="container">
-                    <div class="swiper">
+                    <div class="swiper swiper-main">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s1.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s2.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s3.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s4.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s5.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s6.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s7.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s8.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s9.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s10.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s11.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s12.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s13.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s14.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s15.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s16.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s17.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s18.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s19.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s20.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s21.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s22.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s23.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s24.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s25.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s26.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s27.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s28.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s29.jpg" alt="" class="swiper-slide-img">
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide swiper-main-slide">
                                 <img src="/img/slider/s30.jpg" alt="" class="swiper-slide-img">
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
+
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
@@ -189,7 +299,7 @@
                     <div class="service-rate__item">
                         <h2 class="service-rate__item-title">
                             Черновой ремонт новостройки
-        
+
                         </h2>
                         <p class="service-rate__item-cost">
                             &nbsp; От 8000 р кв.м
@@ -296,7 +406,8 @@
                         </div>
                         <div class="warranty__desc-wrap">
                             <img src="/img/cart.svg" alt="" class="warranty__img">
-                            <p class="warranty__text">Закупим привезем и поднимем все необходимые материалы на ваш объект самостоятельно</p>
+                            <p class="warranty__text">Закупим привезем и поднимем все необходимые материалы на ваш
+                                объект самостоятельно</p>
                         </div>
                         <div class="warranty__desc-wrap">
                             <img src="/img/chat.svg" alt="" class="warranty__img">
@@ -315,13 +426,14 @@
                         Качество предоставляемых услуг, надежность и честность вот наш девиз в работе
                     </h2>
                     <p class="excursion__sub-title">
-                        Еще больше фотографий наших работ в группе во <a target="_blank" href="https://vk.com/id774591441" class="excursion__sub-title-link">Вконтакте</a>
+                        Еще больше фотографий наших работ в группе во <a target="_blank"
+                            href="https://vk.com/id774591441" class="excursion__sub-title-link">Вконтакте</a>
                     </p>
                     <button type="submit" class="excursion__button">Записаться на просмотр текущих объектов</button>
                 </div>
             </section>
             <section class="map block-fz">
-                    <img src="/img/map2000.jpg" alt="" class="map__img">
+                <img src="/img/map2000.jpg" alt="" class="map__img">
             </section>
         </div>
         <footer class="footer">
@@ -338,6 +450,7 @@
         </footer>
     </div>
 </body>
+<!-- <script src="swiper-bundle.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 
