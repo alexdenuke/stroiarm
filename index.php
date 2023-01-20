@@ -6,17 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>stroiarm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap"
-        rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
-    <link rel="stylesheet" href="swiper-bundle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="swiper-bundle.css"> -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <form method="POST" action="action.php" class="popup-excursion">
+        <div class="container container-popup-excursion">
+            <fieldset class="popup-excursion__body">
+                <img src="/img/krest-red.svg" alt="" class="popup-excursion__krest">
+                <p class="popup-excursion__title">
+                    Запись на экскурсию
+                </p>
+                <p class="popup-excursion__subtitle">
+                    Оставьте ваш номер телефона и менеджер расскажет вам подробнее о том, как посетить объект
+                </p>
+                <input name="name" placeholder="Введите имя" type="text" class="popup-excursion__name">
+                <input name="tel" placeholder="Введите телефон" type="number" class="popup-excursion__tel">
+                <button type="submit" class="popup-excursion__btn">Отправить</button>
+            </fieldset>
+        </div>
+    </form>
     <div class="popup-swiper">
         <div class="container-popup">
             <img src="/img/krest.svg" alt="" class="krest">
@@ -122,7 +137,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="bububub">бубубуб</div> -->
     <div class="wrapper">
         <div class="content">
             <header class="header">
@@ -429,7 +443,7 @@
                         Еще больше фотографий наших работ в группе во <a target="_blank"
                             href="https://vk.com/id774591441" class="excursion__sub-title-link">Вконтакте</a>
                     </p>
-                    <button type="submit" class="excursion__button">Записаться на просмотр текущих объектов</button>
+                    <button class="excursion__button">Записаться на просмотр текущих объектов</button>
                 </div>
             </section>
             <section class="map block-fz">
