@@ -15,17 +15,21 @@ body.lock {
 }
 
 .popup-excursion {
-    display: none;
-    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    height: calc(100% - 62px);
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.932);
     position: fixed;
     z-index: 5;
     overflow: scroll;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
 }
 
 .popup-excursion.active {
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 .container-popup-excursion {
@@ -53,7 +57,9 @@ body.lock {
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     text-align: center;
+    z-index: 20;
     background-color: rgb(255, 255, 255);
+    /* transition: all 0.9s ease 0s; */
 }
 
 .popup-excursion__title {
@@ -143,14 +149,12 @@ body.lock {
 }
 
 .header {
-    display: none;
     background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     z-index: 10;
     border-bottom: 2px solid var(--color-style);
     /* height: 60px; */
-    /* margin-bottom: 60px; */
 }
 
 .container {
@@ -376,7 +380,7 @@ body.lock {
 
 .popup-swiper {
     position: fixed;
-    z-index: 1000;
+    z-index: 5;
     visibility: hidden;
     opacity: 0;
     padding-top: 62px;
@@ -575,7 +579,7 @@ body.lock {
 }
 
 .excursion {
-    margin-bottom: 100px;
+    margin-bottom: 7%;
     background-color: var(--bgc);
 }
 
@@ -591,6 +595,10 @@ body.lock {
     font-size: var(--fz-sub-title);
     margin-bottom: 7%;
 }
+.excursion__sub-title-link {
+    font-weight: 500;
+    color: #0077ff;
+}
 
 .excursion__button {
     background-color: var(--color-style);
@@ -601,6 +609,37 @@ body.lock {
     display: block;
     margin: 0px auto;
     margin-bottom: 7%;
+}
+
+.message-send {
+    text-align: center;
+}
+
+.message-send__body {
+    box-shadow: 0px 0px 30px 1px #e6e6e6df;
+    max-width: 500px;
+    max-height: max-content;
+    border-radius: 20px;
+    padding: 50px;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.message-send__title {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.message-send__btn {
+
+}
+.message-send__link {
+    background-color: #ffcc00;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: black;
 }
 
 .map {
@@ -841,6 +880,15 @@ body.lock {
 
     .header__tel {
         font-size: 20px;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .footer__email {
+        margin: 0px 0px 20px;
     }
 }
 

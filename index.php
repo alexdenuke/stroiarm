@@ -185,10 +185,10 @@
             <form method="POST" action="action.php" class="cost-form block-fz">
                 <div class="container">
                     <h1 class="cost-form__title">
-                        Качественный ремонт вашей квартиры в Москве и Подмосковью точно в срок и с гарантией 1 год!
+                        Качественный ремонт вашей квартиры в Москве и по подмосковью, точно в срок и с гарантией 1 год!
                     </h1>
                     <p class="cost-form__sub-title">
-                        БЕСПЛАТНЫЙ выезд инженера и смета на следующий день
+                        БЕСПЛАТНЫЙ выезд инженера и смета на следующий день.
                     </p>
                     <fieldset class="cost-form__input">
                         <input name="name" placeholder="Введите имя" type="text" class="cost-form__name">
@@ -197,7 +197,7 @@
                     </fieldset>
                     <p class="cost-form__data-processing">Нажимая на кнопку «Узнать стоимость», я даю согласие на
                         обработку
-                        персональных данных</p>
+                        персональных данных.</p>
                 </div>
             </form>
             <section class="gallery">
@@ -305,7 +305,7 @@
             <section class="service-rate block-fz">
                 <div class="container">
                     <h2 class="service-rate__title">
-                        Квартира будет выглядеть так, как вы захотите. Материалы и цвета выбираете сами.
+                        Квартира будет выглядеть так, как вы захотите. Материалы и цвета вы выбираете сами.
                     </h2>
                     <p class="service-rate__sub-title">
                         Основные виды отделочных решений:
@@ -369,7 +369,7 @@
             <section class="payment block-fz">
                 <div class="container">
                     <h2 class="payment__title">
-                        Мы сделали комфортные условия оплаты
+                        Мы сделали комфортные условия оплаты.
                     </h2>
                     <h3 class="payment__sub-title">
                         Быстрый старт гарантируем!
@@ -398,7 +398,7 @@
                         <p class="payment__footer-text">
                             Бонус всем клиентам:
                             <br>
-                            влажная уборка квартиры
+                            влажная уборка квартиры.
                         </p>
                     </div>
                 </div>
@@ -411,7 +411,7 @@
                     <h3 class="warranty__sub-title">
                         <b> В любой момент вы можете прийти и проверить ход выполнения работ.</b>
                         <br>
-                        Ваш менеджер ответит на все ваши вопросы. Фото видео отчеты по ходу выполнения ремонтных работ
+                        Наш менеджер ответит на все ваши вопросы. Фото и видео-отчеты по ходу выполнения ремонтных работ.
                     </h3>
                     <div class="warranty__desc">
                         <div class="warranty__desc-wrap">
@@ -437,7 +437,7 @@
             <section class="excursion block-fz">
                 <div class="container">
                     <h2 class="excursion__title">
-                        Качество предоставляемых услуг, надежность и честность вот наш девиз в работе
+                        Качество предоставляемых услуг, надежность и честность вот наш девиз в работе.
                     </h2>
                     <p class="excursion__sub-title">
                         Еще больше фотографий наших работ в группе во <a target="_blank"
