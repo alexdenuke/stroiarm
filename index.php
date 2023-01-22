@@ -2,6 +2,23 @@
 <html lang="en">
 
 <head>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(92139589, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/92139589" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -103,12 +120,12 @@
                     <div class="swiper-slide swiper-slide-pop">
                         <img src="/img/slider/s22.jpg" alt="" class="swiper-slide-pop-img">
                     </div>
-                    <div class="swiper-slide swiper-slide-pop">
+                    <!-- <div class="swiper-slide swiper-slide-pop">
                         <img src="/img/slider/s23.jpg" alt="" class="swiper-slide-pop-img">
-                    </div>
-                    <div class="swiper-slide swiper-slide-pop">
+                    </div> -->
+                    <!-- <div class="swiper-slide swiper-slide-pop">
                         <img src="/img/slider/s24.jpg" alt="" class="swiper-slide-pop-img">
-                    </div>
+                    </div> -->
                     <div class="swiper-slide swiper-slide-pop">
                         <img src="/img/slider/s25.jpg" alt="" class="swiper-slide-pop-img">
                     </div>
@@ -163,7 +180,7 @@
                         <img src="/img/burger.svg" alt="" class="header__burger">
                     </div>
                     <div class="header__burger-menu">
-                        <p class="header__burger-menu-item">Галерея работ</p>
+                        <!-- <p class="header__burger-menu-item">Галерея работ</p> -->
                         <a href="tel:89253210861" class="header__burger-menu-item">8 925 321 08 61</a>
                         <p class="header__burger-menu-item">stroiarmru@yandex.ru</p>
                         <div class="header__burger-menu-item">
@@ -446,9 +463,10 @@
                     <button class="excursion__button">Записаться на просмотр текущих объектов</button>
                 </div>
             </section>
-            <section class="map block-fz">
-                <img src="/img/map2000.jpg" alt="" class="map__img">
-            </section>
+            <!-- <section class="map-wrap block-fz"> -->
+                <!-- <img src="/img/map2000.jpg" alt="" class="map__img"> -->
+                <div id="map-test" class="map"></div>
+            <!-- </section> -->
         </div>
         <footer class="footer">
             <div class="container">
@@ -465,7 +483,11 @@
     </div>
 </body>
 <!-- <script src="swiper-bundle.min.js"></script> -->
+<script src="https://api-maps.yandex.ru/2.1/?apikey=dce7af14-ea9f-4965-ac01-10a56f2f322a&lang=ru_RU">
+</script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="/script.js"></script>
+<script src="/burger.js"></script>
+<script src="/map.js"></script>
 
 </html>

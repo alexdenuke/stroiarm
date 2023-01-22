@@ -1,11 +1,3 @@
-let burger = document.querySelector('.header__burger');
-let menu = document.querySelector('.header__burger-menu');
-
-burger.addEventListener('click', () => {
-  menu.classList.toggle('active');
-  document.body.classList.toggle("lock");
-})
-
 
 let excursionBtn = document.querySelector('.excursion__button');
 let excursion = document.querySelector('.popup-excursion');

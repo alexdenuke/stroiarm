@@ -126,5 +126,5 @@ try {
         </div>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="/burger.js"></script>
 </html>
